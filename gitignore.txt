@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data/cache/vector DB files - do not deploy
+chroma_db/
+corpus_cache/
+data/
+*.pkl
+*.sqlite3
+*.db
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
